@@ -1,0 +1,58 @@
+:root {
+    /* Light Theme - Primary */
+    --light-primary-50: #e3f2fd;
+    --light-primary-100: #bbdefb;
+    --light-primary-200: #90caf9;
+    --light-primary-300: #64b5f6;
+    --light-primary-400: #42a5f5;
+
+    /* Dark Theme - Primary */
+    --dark-primary-50: #0d47a1;
+    --dark-primary-100: #1565c0;
+    --dark-primary-200: #1976d2;
+    --dark-primary-300: #1e88e5;
+    --dark-primary-400: #2196f3;
+
+    /* Light Theme - Secondary */
+    --light-secondary-50: #fce4ec;
+    --light-secondary-100: #f8bbd0;
+    --light-secondary-200: #f48fb1;
+    --light-secondary-300: #f06292;
+    --light-secondary-400: #ec407a;
+
+    /* Dark Theme - Secondary */
+    --dark-secondary-50: #880e4f;
+    --dark-secondary-100: #ad1457;
+    --dark-secondary-200: #c2185b;
+    --dark-secondary-300: #d81b60;
+    --dark-secondary-400: #e91e63;
+
+    /* Light Theme - Success */
+    --light-success-50: #e8f5e9;
+    --light-success-100: #c8e6c9;
+    --light-success-200: #a5d6a7;
+    --light-success-300: #81c784;
+    --light-success-400: #66bb6a;
+
+    /* Dark Theme - Success */
+    --dark-success-50: #1b5e20;
+    --dark-success-100: #2e7d32;
+    --dark-success-200: #388e3c;
+    --dark-success-300: #43a047;
+    --dark-success-400: #4caf50;
+
+    /* Light Theme - Warning */
+    --light-warning-50: #fff8e1;
+    --light-warning-100: #ffecb3;
+    --light-warning-200: #ffe082;
+    --light-warning-300: #ffd54f;
+    --light-warning-400: #ffca28;
+
+    /* Dark Theme - Warning */
+    --dark-warning-50: #ff6f00;
+    --dark-warning-100: #ff8f00;
+    --dark-warning-200: #ffa000;
+    --dark-warning-300: #ffb300;
+    --dark-warning-400: #ffc107;
+
+}

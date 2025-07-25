@@ -16,7 +16,6 @@ const styles: { [key: string]: React.CSSProperties } = {
     nav: {
         display: 'flex',
         justifyContent: 'space-between',
-        alignItems: 'center',
         padding: '1rem 2rem',
         backgroundColor: '#fff',
         borderBottom: '1px solid #e0e0e0',
