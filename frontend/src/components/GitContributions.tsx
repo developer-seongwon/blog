@@ -67,17 +67,17 @@ const GitHubContributions: React.FC = () => {
     return (
         <Card variant="outlined" sx={{ borderRadius: 4, mb: 4 }}>
             <CardContent sx={{ p: 4 }}>
-                <Box
-                    sx={{
-                        bgcolor: 'background.default',
-                        borderRadius: 2,
-                        px: 2,
-                        py: 2,
-                        overflowX: 'auto',
-                    }}
-                >
+                {/*<Box id = "A"*/}
+                {/*    sx={{*/}
+                {/*        bgcolor: 'background.default',*/}
+                {/*        borderRadius: 2,*/}
+                {/*        px: 2,*/}
+                {/*        py: 2,*/}
+                {/*        overflowX: 'auto',*/}
+                {/*    }}*/}
+                {/*>*/}
                     <Box sx={{ minWidth: 700, mx: 'auto' }}>
-                        <Box display="flex" mb={2}>
+                        <Box display="flex" mt={2} mb={2}>
                             <Box sx={{ width: 48 }} />
                             <Box flexGrow={1} display="flex" justifyContent="space-between">
                                 {months.map((month, index) => (
@@ -183,7 +183,7 @@ const GitHubContributions: React.FC = () => {
                                 </Typography>
                             </Box>
                         </Box>
-                    </Box>
+                    {/*</Box>*/}
                 </Box>
             </CardContent>
         </Card>
