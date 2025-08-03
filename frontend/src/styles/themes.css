@@ -4,11 +4,15 @@
 /* Light Blue Theme (Default) */
 [data-theme="light-blue"] {
     --primary-color: var(--light-blue-400);
+    --primary-color-light: rgba(33, 150, 243, 0.08);
     --primary-hover: var(--light-blue-300);
     --secondary-color: var(--light-blue-200);
     --background-color: #ffffff;
+    --background-secondary: #f5f5f5;
+    --surface: #fafafa;
     --surface-color: #fafafa;
     --surface-hover: #f5f5f5;
+    --hover-color: rgba(0, 0, 0, 0.04);
     --nav-background: #ffffff;
     --text-primary: rgba(0, 0, 0, 0.87);
     --text-secondary: rgba(0, 0, 0, 0.6);
@@ -21,11 +25,15 @@
 /* Light Green Theme */
 [data-theme="light-green"] {
     --primary-color: var(--light-green-400);
+    --primary-color-light: rgba(76, 175, 80, 0.08);
     --primary-hover: var(--light-green-300);
     --secondary-color: var(--light-green-200);
     --background-color: #ffffff;
+    --background-secondary: #e8f5e9;
+    --surface: var(--light-green-50);
     --surface-color: var(--light-green-50);
     --surface-hover: #e8f5e9;
+    --hover-color: rgba(76, 175, 80, 0.04);
     --nav-background: #ffffff;
     --text-primary: rgba(0, 0, 0, 0.87);
     --text-secondary: rgba(0, 0, 0, 0.6);
@@ -38,11 +46,15 @@
 /* Dark Blue Theme */
 [data-theme="dark-blue"] {
     --primary-color: var(--dark-primary-400);
+    --primary-color-light: rgba(33, 150, 243, 0.12);
     --primary-hover: var(--dark-primary-300);
     --secondary-color: var(--dark-primary-200);
     --background-color: #121212;
+    --background-secondary: #2c2c2c;
+    --surface: #1e1e1e;
     --surface-color: #1e1e1e;
     --surface-hover: #272727;
+    --hover-color: rgba(255, 255, 255, 0.04);
     --nav-background: #000000;
     --text-primary: rgba(255, 255, 255, 0.87);
     --text-secondary: rgba(255, 255, 255, 0.6);
